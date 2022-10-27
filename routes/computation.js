@@ -10,12 +10,12 @@ router.get('/', function(req, res, next) {
   var x = req.query.x;
 
   if(x == undefined){
-    x = rand.toFixed(2);
+    x = rand.toFixed(6);
   }
 
-  let imul = Math.imul(x).toFixed(2);
-  let log = Math.log(x).toFixed(2);
-  let log10 = Math.log10(x).toFixed(2);
+  let imul = Math.imul(x).toFixed(6);
+  let log = Math.log(x).toFixed(6);
+  let log10 = Math.log10(x).toFixed(6);
 
 
   res.render('computation', { 
