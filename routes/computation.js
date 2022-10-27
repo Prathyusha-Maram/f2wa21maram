@@ -20,9 +20,9 @@ router.get('/', function(req, res, next) {
 
   res.render('computation', { 
                 title: 'computation',
-                c1: 'applied to '+x+ 'is '+imul,
-                c2: 'applied to '+x+ 'is '+log,
-                c3: 'applied to '+x+ 'is '+log10
+                c1: 'applied to '+x+ ' is '+imul,
+                c2: 'applied to '+x+ ' is '+log,
+                c3: 'applied to '+x+ ' is '+log10
             });
 });
 
