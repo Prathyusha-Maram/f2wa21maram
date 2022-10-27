@@ -10,7 +10,7 @@ router.get('/', function(req, res, next) {
   var x = req.query.x;
 
   if(x == undefined){
-    x = random.toFixed(2);
+    x = rand.toFixed(2);
   }
 
   let imul = Math.imul(x).toFixed(2);
